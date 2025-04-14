@@ -14,6 +14,10 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 30px 100px;
+        position:sticky;
+        top: 0;
+        z-index: 1;
+        width: 100%;
     }
     .form-header {
         width: 40%; 
@@ -126,8 +130,18 @@ h2 > a {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
-
+/* (width <=998px) (max-width:998px)*/
 @media screen and (width <=998px)
-{
-    
-} 
+{ header { flex-wrap: wrap;}
+}
+.lista-icone { display: inline;} 
+.lista-links li {
+    display: none;
+}
+.form-header {
+    order: 2;
+    width: 100%;
+}
+.form-header input {
+    width: 120%;
+}
