@@ -7,7 +7,36 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
 }
+header {
+        color: #fff;
+        display: flex;
+        background-color: #4b0563;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 100px;
+    }
+    .form-header {
+        width: 40%; 
+        display: flex;
+    }
+    .form-header input {
+        border-radius: 5px 0 0 5px;
+        height:40px;
+        width: 80%;
 
+    }
+    .form-header button {
+        border-radius:0 5px 5px 0;
+        padding: 12px;
+    }
+    .nav-header, .nav-header ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+    .lista-icone {
+        display: none;
+    }
 .div-card {
     border: 1px solid #9f9c9c;
     width: 15%;
@@ -16,12 +45,16 @@
 
 .div-card  img {
     width: 80%;
+
     
 }
 
 .section-cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+    padding: 20px;
 }
 
 .tag-p {
@@ -81,4 +114,19 @@ h2 > a {
 .span-valor {
     font-size: 28px;
     font-weight: 600;
+}
+
+.div-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+.div-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
