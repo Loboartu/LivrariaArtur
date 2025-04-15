@@ -199,9 +199,12 @@ hr {
 
     .lista-links li {
         display: none;
+        
     }
 }
 /* Efeito ao passar o mouse */
 .div-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);}
+    box-shadow: 0 10px 20px rgba(33, 1, 43, 0.519);
+}
+    
