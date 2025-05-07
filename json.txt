@@ -1,0 +1,17 @@
+JSON - JavaScript Notation
+
+Formato de te texto com base no objeto JavaScript
+
+
+1. Formato objeto:
+{
+    id: 1,
+    nome: "um amor",
+    endereço:"um endereço"
+}
+2. Formato JSON
+{
+    "id": 1,
+    "nome": "um nome",
+    "endereco": "um endereço"
+}

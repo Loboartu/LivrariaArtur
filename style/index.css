@@ -12,7 +12,7 @@
 header {
     color: #fff;
     display: flex;
-    background-color: #4e0d5a;
+    background-color: #200d5a;
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
@@ -140,7 +140,7 @@ h2 > a {
 
 footer {
     padding: 20px 100px;
-    background-color: #4e0d5a;
+    background-color: #160444;
     color: #fff;
     display: block;
 }
